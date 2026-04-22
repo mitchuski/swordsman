@@ -1,0 +1,44 @@
+/**
+ * Swordsman Extension - Content Script Styles
+ *
+ * Styles for the canvas overlay and cursor states
+ */
+
+/* Canvas overlay - highest z-index */
+#swordsman-canvas-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: none !important;
+  z-index: 2147483647 !important;
+}
+
+/* Custom cursor states */
+body.swordsman-blade-active {
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23534AB7" d="M6 12l4-8 8 8-8 4z"/></svg>') 12 12, crosshair !important;
+}
+
+body.swordsman-casting {
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="%23EF9F27" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="%23EF9F27"/></svg>') 12 12, pointer !important;
+}
+
+body.swordsman-sovereign {
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23FFD700" d="M12 2l3 6 6 1-4 4 1 6-6-3-6 3 1-6-4-4 6-1z"/></svg>') 12 12, default !important;
+}
+
+/* Orb glow effect */
+.swordsman-orb-glow {
+  filter: drop-shadow(0 0 10px rgba(83, 74, 183, 0.5));
+}
+
+.mage-orb-glow {
+  filter: drop-shadow(0 0 10px rgba(29, 158, 117, 0.5));
+}
+
+/* Convergence state */
+body.swordsman-convergence .swordsman-orb-glow,
+body.swordsman-convergence .mage-orb-glow {
+  filter: drop-shadow(0 0 20px rgba(239, 159, 39, 0.7));
+}
