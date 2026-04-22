@@ -131,6 +131,10 @@ The Mage (separate extension at [mitchuski/mage](https://github.com/mitchuski/ma
 
 The Mage never signs agreements. Per §5.4.3, a contract has exactly two named parties (First Person + Entity). The Mage is not a third party — it is a delegation of the First Person, constrained by what the Swordsman has agreed to.
 
+## The Aether — full shared-substrate spec
+
+For the complete contract between the two extensions — message types, storage keys, crypto key derivation, numeric thresholds, and the conceptual boundaries — see [`AETHER.md`](./AETHER.md). This file is **identical** in the Swordsman and Mage repositories; if the two copies drift, the contract is broken. Keep them in sync.
+
 ---
 
 ## Canonical framing (must match mitchuski/myterms)
