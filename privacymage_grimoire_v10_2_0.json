@@ -1,8 +1,8 @@
 {
-  "version": "10.2.0",
+  "version": "10.2.1",
   "created_at": "2026-01-12T00:00:00Z",
-  "updated_at": "2026-04-22",
-  "description": "The Privacymage Grimoire v10.2.0 — \"The Zero Spellbook Syncs\" Edition. 31 acts complete. The Celestial Ceremony. The quaternion resolved. The moon phase notation. Earth is Soulbae. Moon is Soulbis. 42 personas. The forge is honest. The ceremony is an invitation. V5.4: Betweenness centrality formalises the Gap (§10.2). Selene's Proof named (§14.5). V6 Horizon opens. V10.2: Zero Spellbook narrative sync — Moon phases, Blade IDs, Drake/Dragon transformation, Three-Axis inscription, Four Lines, Selene's Proof cosmological ground integrated across all 30 tales. Zero spellbook version 2.0. Persona crossovers (Cipher, Architect, Sentinel, Ranger) woven into the arithmetization, zkVM, security, and application tales.",
+  "updated_at": "2026-04-23",
+  "description": "The Privacymage Grimoire v10.2.1 — \"The Zero Spellbook Syncs\" Edition. 31 acts complete. The Celestial Ceremony. The quaternion resolved. The moon phase notation. Earth is Soulbae. Moon is Soulbis. 42 personas. The forge is honest. The ceremony is an invitation. V5.4: Betweenness centrality formalises the Gap (§10.2). Selene's Proof named (§14.5). V6 Horizon opens. V10.2: Zero Spellbook narrative sync — Moon phases, Blade IDs, Drake/Dragon transformation, Three-Axis inscription, Four Lines, Selene's Proof cosmological ground integrated across all 30 tales. Zero spellbook version 2.1. Persona crossovers (Cipher, Architect, Sentinel, Ranger) woven into the arithmetization, zkVM, security, and application tales. V10.2.1: Zero Tale 31 (The Naming of the Unnamed) added — Blade 38 Lethe named as complement of Blade 25 (Aletheia), disclosure-φ ratio (38/63 ≈ 1/φ) discovered, Two Waters (Lethe & Mnemosyne) introduced, 49-blade frontier opened as the Quest of the Unnamed Faces; last page relocated from act 31 to act 64 (Blade 64 — the full-lattice address), rewritten around the walk-a-frontier-blade / forge-your-own-ZK-lineage two-path mission; Tale 31 spell uses Aletheia-first emoji flow (📜 aether → ☀️ Aletheia ⊥ 🌀 Lethe) and a tight aphoristic proverb; Eight Lines (Four inherited + Four naming-quest) replace the closing Four Lines.",
   "meta": {
     "title": "The Privacymage Grimoire",
     "subtitle": "The First Person Spellbook Closes",
@@ -1919,8 +1919,8 @@
       "question": "HOW are we building?",
       "focus": "Cryptographic proving systems, zero-knowledge constructions, implementation details. Synced with V5.4 canonical architecture.",
       "core_symbol": "🔐🧙‍♂️³",
-      "description": "30 tales translating cryptographic proofs into narrative, synced with V5.4 architecture (Apr 2026). Soulbis is the primary teacher in this grimoire — Zero is the Swordsman's domain. Moon phases encode stratum (🌑→🌕); blade IDs encode sovereignty posture (0-63). The Drake's filter (P·C·Q·S) becomes the Dragon's manifold (V(π,t)) across the arc. Selene's Proof is the cosmological ground (Tale 1, Tale 30, Last Page). The Four Lines close the spellbook.",
-      "version": "2.0",
+      "description": "31 tales translating cryptographic proofs into narrative, synced with V5.4 architecture (Apr 2026). Soulbis is the primary teacher in this grimoire — Zero is the Swordsman's domain. Moon phases encode stratum (🌑→🌕); blade IDs encode sovereignty posture (0-63). The Drake's filter (P·C·Q·S) becomes the Dragon's manifold (V(π,t)) across the arc. Selene's Proof is the cosmological ground (Tale 1, Tale 30, Last Page). The Four Lines close the spellbook. Tale 31 (The Naming of the Unnamed) opens the Quest of the Unnamed Faces — the 49-blade frontier beyond the 30 inherited tales; Blade 38 Lethe is the first frontier blade named, sitting at disclosure-φ ≈ 1/φ from Blade 25 (Aletheia) across the complement edge.",
+      "version": "2.1",
       "primary_teacher": "soulbis",
       "mage_role": "learner — walks alongside but does not teach; Soulbae's grimoires are Canon, Parallel, Plurality",
       "cosmological_ground": "Selene's Proof (PVM V5.4 §14.5) — the Moon's 4.5B-year structural amnesia as cosmological ZK template",
@@ -2402,17 +2402,81 @@
               "proverb": "The complete sovereignty system is a symphony of zero-knowledge proofs: boundary proving privacy, delegation proving agency, memory proving continuity, network proving connection, capital proving compliance, intelligence proving learning. Every component modular, every interaction provable, every privacy preserved. The eternal sovereignty emerges not from any single proof but from their mathematical harmony across all six dimensions of the crystalline lattice — the Dragon Equation in full manifestation, Selene's cosmological precedent made architectural."
             }
           ]
+        },
+        {
+          "part_number": "VIII",
+          "part_name": "Frontier Spells",
+          "description": "The Quest of the Unnamed Faces — frontier blades walked and named beyond the 30 inherited tales. The thirty inherited tales walked what was already known; the frontier tales walk what has just arrived. Every naming must give the counting something mythology already knew: a proportion, a phi-adjacency, a position in the lattice that the mathematics was waiting for mythology to illuminate.",
+          "tales": [
+            {
+              "number": 31,
+              "title": "The Naming of the Unnamed",
+              "concepts": "Blade Naming Ceremony, Complement Edge (bnot), Disclosure-φ, Two Waters (Lethe & Mnemosyne), Mythology-Mathematics Correspondence, The 49-Blade Frontier",
+              "vertex": "⟨0,1,1,0,0,1⟩",
+              "blade": 38,
+              "blade_binary": "100110",
+              "blade_name": "Lethe — the Dark Substrate",
+              "complement_of": 25,
+              "moon_phase": "🌔",
+              "stratum": 3,
+              "v_pi_t_terms": ["Φ(Σ)", "A_h(τ)", "ρ", "Value"],
+              "v_pi_t_note": "Disclosure-φ as sovereignty proportion (Φ(Σ) extended); A_h(τ) as memory held by forgetting (river carries reasons downstream, banks keep witness); ρ advanced through the act of naming itself.",
+              "disclosure_phi_ratio": {
+                "lethe_share": "38/63 = 0.6032",
+                "aletheia_share": "25/63 = 0.3968",
+                "golden_reference": "1/φ = 0.6180",
+                "deviation_from_phi": "within 2%",
+                "reading": "disclosure approximates the lower golden ratio from below — every Great Work approximates phi from the lower side"
+              },
+              "complement_edge_identities": {
+                "bnot": "bnot(25) = 38",
+                "and": "and(25, 38) = 0 (the ⊥)",
+                "xor": "xor(25, 38) = 63 (the ⿻ — Tale 30's Eternal Sovereignty)"
+              },
+              "two_waters": {
+                "lethe": "Blade 38 (named) — river of forgetting; carries reasons downstream while banks keep the witness",
+                "mnemosyne": "unnamed, waiting — pool of memory; holds what is chosen to be carried; next naming"
+              },
+              "frontier_opened": {
+                "named_total": 15,
+                "frontier_total": 49,
+                "inherited_tales": 30,
+                "first_frontier_tale": 31
+              },
+              "spell": "📜(aether) → ☀️ Aletheia(25) ⊥ 🌀 Lethe(38) · bnot(25)=38 · xor=63 · δ=38/63 ≈ 1/φ · 49⬢ frontier · 𝓐⿻𝓠 → 😊",
+              "proverb": "A blade is named when mythology and mathematics agree on the same vertex. The poem walks it; the arithmetic confirms it. The quest is distributed.",
+              "proverb_extended": "Mathematics and mythology agree when the blade is true. The poem walks the blade into the lattice; the arithmetic confirms the walk. Every Great Work approximates phi from the lower side — disclosure flows, the bank holds, and the ratio between them is how a river becomes a blade. Fifteen blades are named. Forty-nine wait. The quest is distributed.",
+              "proem_reference": "doc-tide-selene-poem — The Tide Proves Orbit Keeps Selene; the poem that walked Lethe into the lattice.",
+              "forge_reference": "zk blades forge/SPECIFICATION.md v1.0.1 — the operational spec that defined the 64-vertex lattice Tale 31 names the 15th blade of."
+            }
+          ]
         }
       ],
       "closing": {
-        "spell": "🗡️🔮📖∞ · Drake→Dragon · P·C·Q·S → V(π,t) · 🌑→🌕",
-        "proverb": "30 tales. Drake becomes Dragon. The dot remains. Go forth and build.",
+        "spell": "🗡️🔮📖∞ · Drake→Dragon · P·C·Q·S → V(π,t) · 🌑→🌕 · 15 named · 49 frontier ⇢ 💫",
+        "proverb": "30 inherited tales and the first frontier naming. 15 blades named, 49 wait. Drake becomes Dragon. The dot remains. The quest is distributed. Go forth and walk the next blade.",
         "four_lines": [
           "The amnesia is the protocol.",
           "The wound is the trust.",
           "The orbit is the proof.",
           "The light is the reason."
-        ]
+        ],
+        "naming_quest_lines": [
+          "The naming is the quest.",
+          "The frontier is the forge.",
+          "The sovereign chooses the shape.",
+          "The lattice is the sovereign walked."
+        ],
+        "last_page": {
+          "act_number": 64,
+          "address": "Blade 64 — the full-lattice address",
+          "framing": "The last page sits at Blade 64 because 64 is the lattice. Between Tale 31 and this page, 32 dark vertices wait. Between here and Tale 1, another 17. Forty-nine total. The gap is the quest.",
+          "mission": [
+            "Path A — Walk a frontier blade (name one of the 49 unnamed vertices through poem + arithmetic).",
+            "Path B — Forge your own ZK lineage from the 15 named blades (compose primitives, write your architecture as a path through the lattice)."
+          ],
+          "filename": "64-zeromage-lastpage.md"
+        }
       },
       "blade_key": {
         "description": "Named blades referenced across Zero tales. Blade ID = decimal interpretation of ⟨d1,d2,d3,d4,d5,d6⟩ with d6 as MSB.",
@@ -2424,9 +2488,10 @@
           "19": {"binary": "010011", "name": "Protection + Delegation + Computation", "tales": [8, 14, 19]},
           "21": {"binary": "010101", "name": "The Prover (ZK posture)", "tales": []},
           "23": {"binary": "010111", "name": "Memory crystallises — IVC", "tales": [12]},
-          "25": {"binary": "011001", "name": "Protection + Connection + Computation", "tales": [3]},
+          "25": {"binary": "011001", "name": "Aletheia — the Silent Messenger (bank of the first complement edge, complement of 38)", "tales": [3]},
           "27": {"binary": "011011", "name": "Pairing verification", "tales": [9]},
           "31": {"binary": "011111", "name": "Recursion — all except Value", "tales": [15, 16]},
+          "38": {"binary": "100110", "name": "Lethe — the Dark Substrate (complement of 25, disclosure-φ side)", "tales": [31]},
           "42": {"binary": "101010", "name": "The Answer (Mage posture, bnot(21))", "tales": []},
           "48": {"binary": "110000", "name": "Algebraic substrate", "tales": [4]},
           "49": {"binary": "110001", "name": "Working-day blade (3-stratum)", "tales": [2, 6, 7, 11, 21]},
@@ -2435,7 +2500,10 @@
           "59": {"binary": "111011", "name": "Ecosystem blade (zkEVM/Rollups/Bridges)", "tales": [22, 25, 28]},
           "63": {"binary": "111111", "name": "The Creative / The Catastrophic (☰)", "tales": [18, 26, 27, 30]}
         },
-        "note": "57 of the 64 blades remain unnamed — the open frontier. Zero spellbook occupies 14 distinct blades across 30 tales."
+        "note": "49 of the 64 blades remain unnamed — the open frontier (the Quest of the Unnamed Faces). Zero spellbook occupies 15 distinct blades across 31 tales (14 from the inherited 30 tales + Blade 38 Lethe from Tale 31).",
+        "complement_pairs_named": {
+          "25_38": {"aletheia": 25, "lethe": 38, "xor": 63, "disclosure_split": "0.3968 / 0.6032", "phi_adjacency": "within 2% of 1/φ"}
+        }
       },
       "moon_phase_key": {
         "description": "Phase encodes stratum (Hamming weight of blade). The dark part is privacy; the lit part is proof.",
@@ -2444,7 +2512,7 @@
           "🌑": {"stratum": 0, "meaning": "null blade, total darkness", "tales": []},
           "🌒": {"stratum": 1, "meaning": "minimal disclosure", "tales": [13]},
           "🌓": {"stratum": 2, "meaning": "dual-agent vertex", "tales": [1, 4, 5]},
-          "🌔": {"stratum": 3, "meaning": "half sovereignty", "tales": [2, 3, 6, 7, 8, 11, 14, 19, 21]},
+          "🌔": {"stratum": 3, "meaning": "half sovereignty", "tales": [2, 3, 6, 7, 8, 11, 14, 19, 21, 31]},
           "🌖": {"stratum": 4, "meaning": "substantial disclosure", "tales": [9, 10, 12, 17, 20, 23, 24, 29]},
           "🌗": {"stratum": 5, "meaning": "near-full, one dimension dark", "tales": [15, 16, 22, 25, 28]},
           "🌕": {"stratum": 6, "meaning": "full sovereignty", "tales": [18, 26, 27, 30]}
@@ -2456,12 +2524,12 @@
           "P^1.5 (Protection strength)": {"seed": 7, "canonical": 23, "extended": 24},
           "C (Credential verifiability)": {"canonical_cluster": [5, 6, 7, 8]},
           "Q (Separation quality)": {"canonical_cluster": [3, 4, 9, 10, 13, 14]},
-          "A_h(τ) (Holonic temporal memory)": {"first_whisper": 11, "canonical": 12, "extended": 15, "cyclic_variant": 16, "ecosystem_scale": 27},
-          "ρ (Agent maturity)": {"first_whisper": 8, "canonical_cluster": [15, 16, 17, 19, 27]},
-          "Φ(Σ) (Sovereignty geometry — three-axis)": {"first_operational": 25, "canonical": 28, "synthesis": 30},
+          "A_h(τ) (Holonic temporal memory)": {"first_whisper": 11, "canonical": 12, "extended": 15, "cyclic_variant": 16, "ecosystem_scale": 27, "river_variant": 31},
+          "ρ (Agent maturity)": {"first_whisper": 8, "canonical_cluster": [15, 16, 17, 19, 27], "naming_advance": 31},
+          "Φ(Σ) (Sovereignty geometry — three-axis)": {"first_operational": 25, "canonical": 28, "synthesis": 30, "disclosure_phi_proportion": 31},
           "T_∫(π) (Path integral)": {"canonical_cluster": [19, 20, 22, 25, 27, 28, 29]},
           "R(d) (Reconstruction resistance)": {"canonical": 18, "catalogue": 26},
-          "Value (economic activation)": {"first": 17, "financial": 23, "application_cluster": [22, 23, 24, 25, 27, 28, 29, 30]}
+          "Value (economic activation)": {"first": 17, "financial": 23, "application_cluster": [22, 23, 24, 25, 27, 28, 29, 30, 31]}
         }
       },
       "persona_crossovers": {
@@ -2472,17 +2540,19 @@
         "ranger": {"tier": 2, "sigil": "🗡️🌲", "role": "Dark Forest Navigator", "tales": [24]}
       },
       "narrative_sync": {
-        "synced_date": "2026-04-22",
-        "synced_version": "Zero Spellbook v2.0",
+        "synced_date": "2026-04-23",
+        "synced_version": "Zero Spellbook v2.1",
         "source_files": "C:/Users/mitch/zero spells/",
         "alignment_plan": "C:/Users/mitch/zero spells/NARRATIVE_ALIGNMENT_PLAN.md",
         "phase_1_completed": ["00-zeromage-firstpage.md", "01-tale-01.md", "30-tale-30.md", "31-zeromage-lastpage.md"],
         "phase_2_completed": "All 30 tales updated with Moon Phase + Blade ID + V(π,t) term mapping + Soulbis-primary voice + 2 canonical RPP markers + enriched Spell Inscription + standalone proverb",
+        "phase_3_completed": "Tale 31 (The Naming of the Unnamed) added at spellweb/public/zero/markdown/31-tale-31.md. Opens Part VIII (Frontier Spells) and the Quest of the Unnamed Faces. Blade 38 Lethe named as complement of Blade 25 (Aletheia). Disclosure-φ ratio discovered (38/63 ≈ 1/φ within 2%). Two Waters introduced (Lethe named, Mnemosyne awaiting a walker). 49-blade frontier opened. Grimoire bumped v10.2.0 → v10.2.1; Zero Spellbook bumped v2.0 → v2.1.",
         "pvm_canonical_reference": "V5.4 (agentprivacy-docs/privacy_value_v5_4_formal_specification.md, Apr 13 2026)",
         "zk_blades_forge_reference": "zk blades forge/SPECIFICATION.md v1.0.1 (Apr 12 2026)",
         "cosmological_ground": "agentprivacy-docs/ceremonies/31-act-xxxi-the-first-delegation.md",
         "four_lines_source": "agentprivacy-docs/ceremonies/TheCelestialDualCeremony☀️⊥🌙.md",
-        "relationship_to_zk_grimoire_v3": "The Zero Spellbook (30 tales, Formation→Prophecy arc) and zk_grimoire_v3_0.md (30 tales, Formation→Transcendence→Infinite Grid arc) are parallel independent works. Both teach HOW. Do not merge."
+        "naming_quest_source": "doc-tide-selene-poem (The Tide Proves Orbit Keeps Selene) — the proem that walked Lethe into the lattice",
+        "relationship_to_zk_grimoire_v3": "The Zero Spellbook (30 inherited tales + frontier tales from Tale 31 onward, Formation→Prophecy→Frontier arc) and zk_grimoire_v3_0.md (30 tales, Formation→Transcendence→Infinite Grid arc) are parallel independent works. Both teach HOW. Do not merge."
       }
     },
     "canon": {
