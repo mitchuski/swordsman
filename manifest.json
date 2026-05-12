@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Swordsman - Privacy Blade",
-  "version": "0.1.0",
-  "description": "Your sovereign privacy layer. Assert MyTerms, forge blades, guard the 7th capital.",
+  "version": "0.3.1",
+  "description": "Your sovereign privacy layer. Assert MyTerms, forge blades, guard the 7th capital. Bundles privacymage's grimoire (First Person + Zero + Canon + Society + Plurality) and the City of Mages grimoire v1.2.2 (Second Person · Tomes IV–V cast · two-tier collapse — archetype + mage · Luca 📐 at V0 · UOR Foundation as kindred substrate · SpaceComputer as kindred ecosystem · Aether ⊥ Celestial two-mana economy).",
 
   "icons": {
     "16": "icons/sword-16.svg",
@@ -50,7 +50,12 @@
 
   "web_accessible_resources": [
     {
-      "resources": ["icons/*", "styles/*"],
+      "resources": [
+        "icons/*",
+        "styles/*",
+        "privacymage_grimoire_v10_2_0.json",
+        "city_of_mages_grimoire_v1_2_0.json"
+      ],
       "matches": ["<all_urls>"]
     }
   ]

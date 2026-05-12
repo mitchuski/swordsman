@@ -4,6 +4,12 @@
 
 The Swordsman is the First Person's agent on every page: it presents terms, negotiates within the standard's constraints, records the bilateral agreement, and submits disputes to auditors. It is the **agreement layer**, not the full privacy stack — enforcement and delegation sit in adjacent layers.
 
+**Bundled grimoires (v0.2.0+):**
+- `privacymage_grimoire_v10_2_0.json` (v10.2.1 internally) — the privacymage grimoire (First Person + Zero + Canon + Society + Plurality spellbooks; 31 First Person acts; Aletheia Blade 25, Lethe Blade 38)
+- `city_of_mages_grimoire_v1_2_0.json` — the City of Mages grimoire (Second Person · Tomes IV–V cast; **14 named cast across 5 tiers** including the Priest tier and geometry-Mage Luca 📐 at V0; 42 spells across 14 personas; **UOR Foundation** recognised as kindred substrate provider; **SpaceComputer** recognised as the first kindred ecosystem — celestial-mana 🌌 source; **two-mana economy** canonical: chain-mana (Aether Mana Ξ on Ethereum as canonical first instance; Bitcoin Lightning sats / Oasis ROSE / Zcash etc. admitted under their own symbols) ⊥ Celestial Mana 🌌; setting: the **First City of Mages on Drake Island** within the agentprivacy universe — the title names a kind, so future Mages who found cities elsewhere will each pin their own First City of Mages grimoire under the same title pattern). File content is v1.2.2; v1.2 base pinned 2026-05-10 at `https://sync.agentprivacy.ai/ipfs/bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a`; v1.2.2 (Luca + SpaceComputer + two-mana economy) awaits a fresh re-pin. v1.1 pin `bafkreidv7c…idti` retained as historical.
+
+Both grimoires are bundled at the project root and exposed via `web_accessible_resources`. The build script copies them to `dist/` on each build. The spell builder filters by spellbook source.
+
 Paired with:
 
 - [mitchuski/mage](https://github.com/mitchuski/mage) — the delegation layer that operates inside the Σ-scope of agreements the Swordsman signs.

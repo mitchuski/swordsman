@@ -2,6 +2,8 @@
 
 **What the Swordsman and the Mage share that makes the dual-extension architecture work.**
 
+> **Naming clarification (added 2026-05-09):** This `AETHER.md` is the **technical wire-protocol substrate** between the two browser extensions — TypeScript types, message protocol, storage contract, crypto contract, meaning contract. It is **not** the cosmological *Aether Blade*. The Aether Blade — Greek Aether = medieval Quintessence = the Gap (⿻) — is the third blade in the sky-family alongside the Sun Blade and the Moon Blade. It is documented in `agentprivacy-docs/research/aether-blade-ceremony-circuit.md` and shipped as `AETHER_BLADE_PRESET` in `spellweb/src/data/presets.ts`. Both meanings of *Aether* coexist; context disambiguates. The technical Aether is **infrastructure**; the cosmological Aether is **ceremony**.
+
 This file is **identical** in both repositories. If the Swordsman's copy and the Mage's copy disagree, one of them is wrong and the contract is broken. Keep them in sync.
 
 Paired repositories:

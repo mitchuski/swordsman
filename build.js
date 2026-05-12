@@ -56,6 +56,17 @@ await esbuild.build({
 // Copy manifest
 fs.copyFileSync('manifest.json', 'dist/manifest.json')
 
+// Copy bundled grimoires (web_accessible_resources)
+const grimoires = [
+  'privacymage_grimoire_v10_2_0.json',
+  'city_of_mages_grimoire_v1_2_0.json'
+]
+for (const g of grimoires) {
+  if (fs.existsSync(g)) {
+    fs.copyFileSync(g, path.join('dist', g))
+  }
+}
+
 // Helper to copy directory
 const copyDir = (src, dest) => {
   if (!fs.existsSync(dest)) {
